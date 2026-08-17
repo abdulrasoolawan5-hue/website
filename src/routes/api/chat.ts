@@ -1,7 +1,7 @@
-import { json } from "@tanstack/start";
-import { createAPIFileRoute } from "@tanstack/start/api";
+import { createAPIFileRoute } from "@tanstack/start";
 
-export const APIRoute = createAPIFileRoute("/api/chat")({
+// Changed export name from APIRoute to Route
+export const Route = createAPIFileRoute("/api/chat")({
   POST: async ({ request }) => {
     try {
       const body = await request.json();
