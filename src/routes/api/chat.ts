@@ -1,4 +1,4 @@
-import { createAPIFileRoute } from "@tanstack/react-router";
+import { createAPIFileRoute } from "@tanstack/start";
 
 // Changed export name from APIRoute to Route
 export const Route = createAPIFileRoute("/api/chat")({
