@@ -13,4 +13,7 @@ export default defineConfig({
     port: 5173,
     host: "localhost",
   },
+  ssr: {
+    noExternal: ["@tanstack/start", "@tanstack/react-router"],
+  },
 });
