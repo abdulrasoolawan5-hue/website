@@ -12,6 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@tanstack/router-plugin": "^1.112.0"
     "@tanstack/start": "latest",
     "@ai-sdk/openai-compatible": "^3.0.14",
     "@google/generative-ai": "^0.9.0",
